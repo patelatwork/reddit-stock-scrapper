@@ -202,11 +202,16 @@ Error: 429 Too Many Requests
 ```
 webscrapper/
 ├── 📓 stock_sentiment_analysis.ipynb  # Main analysis notebook
-├── 🐍 reddit_scraper.py              # Base scraper class
 ├── .env                           # Configuration file
 ├── requirements.txt               # Dependencies
 ├── README.md                      # This documentation
 └── *.csv                          # Generated datasets
+=======
+├── ⚙️ .env                           # Configuration file
+├── 📦 requirements.txt               # Dependencies
+├── 📖 README.md                      # This documentation
+└── 📊 *.csv                          # Generated datasets
+>>>>>>> 22aa34eed0de0bf5d5233c636ed4a8ec435e76ae
 ```
 
 ## Research Applications
