@@ -90,7 +90,7 @@ end_date = "2024-12-31"
 ### Subreddit Options
 ```python
 # Primary target (recommended):
-subreddit = "indianstocks"     # 100K+ active members
+subreddit = "indianstocks"     
 
 # Alternative options:
 subreddit = "IndianStreetBets" # Meme-focused trading
@@ -206,35 +206,6 @@ webscrapper/
 ├── requirements.txt               # Dependencies
 ├── README.md                      # This documentation
 └── *.csv                          # Generated datasets
-=======
-├── ⚙️ .env                           # Configuration file
-├── 📦 requirements.txt               # Dependencies
-├── 📖 README.md                      # This documentation
-└── 📊 *.csv                          # Generated datasets
->>>>>>> 22aa34eed0de0bf5d5233c636ed4a8ec435e76ae
+
 ```
 
-## Research Applications
-
-- **Sentiment-Price Correlation**: Study relationship between social sentiment and stock movements
-- **Hinglish NLP Research**: Analyze code-mixing patterns in financial discussions  
-- **Retail Investor Behavior**: Understand Indian retail trading sentiment
-- **ML Model Training**: Build predictive models with sentiment features
-- **Market Microstructure**: Analyze social media impact on price discovery
-
-## Contributing
-
-Want to improve the scraper?
-1. Fork this repository
-2. Create feature branch: `git checkout -b feature-name`
-3. Commit changes: `git commit -m 'Add feature'`
-4. Push branch: `git push origin feature-name`
-5. Submit pull request
-
-## License
-
-This project is for educational and research purposes. Please respect Reddit's Terms of Service and API rate limits.
-
----
-
-**Ready to analyze Indian stock sentiment? Open `stock_sentiment_analysis.ipynb` and start exploring!**
