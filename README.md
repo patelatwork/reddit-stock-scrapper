@@ -1,19 +1,19 @@
-# 🇮🇳 Reddit Stock Sentiment Analysis Scraper
+# Reddit Stock Sentiment Analysis Scraper
 
 **Advanced Tool for Analyzing Indian Stock Market Sentiment from r/indianstocks**
 
 This comprehensive project scrapes Hinglish (Hindi-English) comments from Reddit's r/indianstocks community and performs sophisticated sentiment analysis with real stock price correlation.
 
-## 🎯 What You Get
+## What You Get
 
-- **📊 Stock-Specific Analysis**: Target individual Nifty 50 stocks (RELIANCE, TCS, HDFC, etc.)
-- **🇮🇳 Hinglish Detection**: AI-powered identification of Hindi words in English script  
-- **🤖 Dual Sentiment Analysis**: VADER + TextBlob for accurate sentiment scoring
-- **📈 Stock Price Correlation**: Yahoo Finance integration for price movement analysis
-- **📅 Time-Series Data**: Historical analysis with custom date ranges
-- **💾 Export Ready**: Clean CSV datasets for machine learning
+- **Stock-Specific Analysis**: Target individual Nifty 50 stocks (RELIANCE, TCS, HDFC, etc.)
+- **Hinglish Detection**: AI-powered identification of Hindi words in English script  
+- **Dual Sentiment Analysis**: VADER + TextBlob for accurate sentiment scoring
+- **Stock Price Correlation**: Yahoo Finance integration for price movement analysis
+- **Time-Series Data**: Historical analysis with custom date ranges
+- **Export Ready**: Clean CSV datasets for machine learning
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Install Dependencies
 ```powershell
@@ -61,7 +61,7 @@ jupyter notebook
 python reddit_scraper.py
 ```
 
-## 📊 Configuration Guide
+## Configuration Guide
 
 ### Stock Selection
 Choose from popular Nifty 50 stocks:
@@ -107,7 +107,7 @@ min_ticker_mentions = 1         # Minimum stock mentions required
 analyze_comments = True         # Include comment analysis
 ```
 
-## 📈 Output Files
+## Output Files
 
 The scraper generates timestamped CSV files:
 
@@ -146,14 +146,14 @@ The scraper generates timestamped CSV files:
 
 **Sentiment Summary:**
 ```
-🎯 RELIANCE.NS Analysis Results:
-   📊 Posts: 13 | 💬 Comments: 581
-   🐂 BULLISH: 43.5% | 🐻 BEARISH: 13.1% | 😐 NEUTRAL: 43.4%
-   🇮🇳 Hinglish Content: 61.5%
-   📈 Overall Score: +0.282 (BULLISH)
+RELIANCE.NS Analysis Results:
+   Posts: 13 | Comments: 581
+   BULLISH: 43.5% | BEARISH: 13.1% | NEUTRAL: 43.4%
+   Hinglish Content: 61.5%
+   Overall Score: +0.282 (BULLISH)
 ```
 
-## 🧠 Advanced Features
+## Advanced Features
 
 ### Hinglish Detection Algorithm
 - **Smart Pattern Matching**: Identifies Hindi words in Roman script
@@ -170,7 +170,7 @@ The scraper generates timestamped CSV files:
 - **NSE/BSE Support**: Indian stock exchanges
 - **Correlation Ready**: Timestamp alignment for analysis
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 ### Reddit API Issues
 ```
@@ -197,27 +197,27 @@ Error: 429 Too Many Requests
 → Wait 10-15 minutes before retry
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 webscrapper/
 ├── 📓 stock_sentiment_analysis.ipynb  # Main analysis notebook
 ├── 🐍 reddit_scraper.py              # Base scraper class
-├── ⚙️ .env                           # Configuration file
-├── 📦 requirements.txt               # Dependencies
-├── 📖 README.md                      # This documentation
-└── 📊 *.csv                          # Generated datasets
+├── .env                           # Configuration file
+├── requirements.txt               # Dependencies
+├── README.md                      # This documentation
+└── *.csv                          # Generated datasets
 ```
 
-## 🎓 Research Applications
+## Research Applications
 
-- **📈 Sentiment-Price Correlation**: Study relationship between social sentiment and stock movements
-- **🗣️ Hinglish NLP Research**: Analyze code-mixing patterns in financial discussions  
-- **👥 Retail Investor Behavior**: Understand Indian retail trading sentiment
-- **🤖 ML Model Training**: Build predictive models with sentiment features
-- **📊 Market Microstructure**: Analyze social media impact on price discovery
+- **Sentiment-Price Correlation**: Study relationship between social sentiment and stock movements
+- **Hinglish NLP Research**: Analyze code-mixing patterns in financial discussions  
+- **Retail Investor Behavior**: Understand Indian retail trading sentiment
+- **ML Model Training**: Build predictive models with sentiment features
+- **Market Microstructure**: Analyze social media impact on price discovery
 
-## 🤝 Contributing
+## Contributing
 
 Want to improve the scraper?
 1. Fork this repository
@@ -226,10 +226,10 @@ Want to improve the scraper?
 4. Push branch: `git push origin feature-name`
 5. Submit pull request
 
-## 📄 License
+## License
 
 This project is for educational and research purposes. Please respect Reddit's Terms of Service and API rate limits.
 
 ---
 
-**🚀 Ready to analyze Indian stock sentiment? Open `stock_sentiment_analysis.ipynb` and start exploring!**
+**Ready to analyze Indian stock sentiment? Open `stock_sentiment_analysis.ipynb` and start exploring!**
