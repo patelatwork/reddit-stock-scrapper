@@ -114,19 +114,6 @@ The scraper generates timestamped CSV files:
 ### Sentiment Analysis Results
 **File**: `{STOCK}_comment_analysis_YYYYMMDD_HHMMSS.csv`
 
-**Columns**:
-- `Title` - Reddit post title
-- `Ticker` - Stock symbol (e.g., RELIANCE.NS)
-- `Date` - Post creation date
-- `DateTime` - Full timestamp
-- `Post_ID` - Unique Reddit post identifier
-- `Score` - Reddit upvotes minus downvotes
-- `Num_Comments` - Total comment count
-- `Author` - Post author username
-- `NumberOfTickerMentions` - Stock mention frequency
-- `Is_Hinglish` - Boolean Hinglish detection
-- `VADER_Positive/Negative/Neutral` - VADER sentiment counts
-- `TextBlob_Positive/Negative/Neutral` - TextBlob sentiment counts
 
 ### Stock Price History
 **File**: `{STOCK}_stock_history_YYYYMMDD_HHMMSS.csv`
